@@ -58,7 +58,7 @@ td{
 }
 
 #background{
-    background-image: url("../images/backgroundpic.jpg");
+   /* background-image: url("../images/backgroundpic.jpg");*/
     width: 100%;
     height: 600px;
      background-attachment: fixed;

@@ -58,7 +58,7 @@ td{
 }
 
 #background{
-    background-image: url("../images/backgroundpic.jpg");
+    background-image: url(https://raw.githubusercontent.com/throwawayCART/throwawayCART.github.io/master/images/backgroundpic.JPG);
     width: 100%;
     height: 600px;
      background-attachment: fixed;

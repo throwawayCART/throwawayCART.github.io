@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     background-color: #ddd;
 }
@@ -64,8 +69,6 @@ td{
      background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-     -webkit-filter: blur(4px);
-    filter: blur(4px);
     background-color: white;
 }
 

@@ -64,7 +64,7 @@ td{
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     text-align: center;
-    width: 100%;
+    width: 85%;
     height: 400px;
     color: black;
 }
@@ -128,12 +128,12 @@ td{
     background-image: linear-gradient(top, #555151 50%, #ADD8E6; 50%);*/
     background-color: #3C4049;
     background-size: 400%;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    align-items: center;
 }
 
 #fcbook{
@@ -162,8 +162,13 @@ td{
 }
 
 .icons p{
-    -webkit-transition: color 1s;
-    transition: color 1s;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+   margin: auto;
 }
 
 .icons i{
@@ -172,20 +177,8 @@ td{
     transition: color 1s;
 }
 
-div section p{
-    font-size: 2rem;
-    color: white;
-    position: relative;
-    margin: auto;
-}
-
-
 .icons:hover{
     background-position:  100%;
-}
-
-.icons:hover p{
-    color: #ADD8E6;
 }
 
 .icons:hover i{

@@ -211,6 +211,9 @@ table{
     #wrapper{
         width: 100%;   
     }
+    #landingImage{
+        width: 100%;
+    }
 }
 
 @media(min-width: 1190px){
